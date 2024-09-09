@@ -27,8 +27,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
-            ],
+              "src/styles.css" ,
+              "src/font.css"   
+                    ],
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -90,12 +91,16 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/font.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "942b8928-8cca-44b4-b7d1-5b88af2fdcf2"
   }
 }
